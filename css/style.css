@@ -80,6 +80,7 @@ header {
 .ghost-logo {
   width: 42px;
   height: 42px;
+  font-size:13px;
   border-radius: 50% 50% 45% 45%;
   background: var(--white);
   border: 2px solid var(--line);
@@ -88,35 +89,7 @@ header {
   flex: 0 0 auto;
 }
 
-.ghost-logo::before,
-.ghost-logo::after {
-  content: "";
-  position: absolute;
-  top: 14px;
-  width: 5px;
-  height: 5px;
-  background: var(--green-dark);
-  border-radius: 50%;
-}
 
-.ghost-logo::before {
-  left: 12px;
-}
-
-.ghost-logo::after {
-  right: 12px;
-}
-
-.ghost-logo span {
-  position: absolute;
-  left: 50%;
-  top: 23px;
-  width: 8px;
-  height: 4px;
-  border-bottom: 2px solid var(--green-dark);
-  border-radius: 50%;
-  transform: translateX(-50%);
-}
 
 .desktop-nav {
   display: flex;
@@ -650,10 +623,29 @@ section {
     text-overflow: ellipsis;
   }
 
-  .ghost-logo {
-    width: 44px;
-    height: 44px;
-  }
+    .ghost-logo{
+        width:56px;
+        height:56px;
+
+        display:flex;
+        align-items:center;
+        justify-content:center;
+
+        background:rgba(255,255,255,0.85);
+
+        border:2px solid var(--line);
+        border-radius:50%;
+
+        box-shadow:0 8px 20px rgba(79,112,86,0.12);
+
+        color:var(--green-dark);
+
+        font-size:16px;
+        font-weight:700;
+        line-height:1;
+
+        flex-shrink:0;
+    }
 
   .desktop-nav {
     display: none;
