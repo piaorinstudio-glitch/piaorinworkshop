@@ -818,6 +818,48 @@ section {
     min-height: 112px;
   }
 
+
+  /* 作品展示區：手機版改成單欄 */
+  .works-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .panel {
+    padding: 20px;
+  }
+
+  .panel h3 {
+    text-align: center;
+  }
+
+  .live2d-preview {
+    grid-template-columns: 1fr;
+    gap: 14px;
+  }
+
+  .preview-main {
+    min-height: 180px;
+  }
+
+  .small-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+  }
+
+  .preview-small {
+    min-height: 90px;
+  }
+
+  .illust-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+  }
+
+  .illust-item {
+    min-height: 100px;
+  }
+
   .services-grid,
   .process-grid {
     grid-template-columns: 1fr;
@@ -886,6 +928,21 @@ section {
   .panel {
     border-radius: 22px;
   }
+
+  .illust-grid,
+  .small-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .preview-main {
+    min-height: 160px;
+  }
+
+  .preview-small,
+  .illust-item {
+    min-height: 90px;
+  }
+
 
   .small-grid,
   .illust-grid {
