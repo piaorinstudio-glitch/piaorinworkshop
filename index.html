@@ -5,9 +5,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>飄霖Piaorin Studio｜委託｜Live2D 建模｜VTuber 立繪｜角色設計</title>
   <link rel="stylesheet" href="css/style.css">
-
+  <script>
+  history.scrollRestoration = "manual";
+  </script>
 </head>
-
+<script>
+  window.onbeforeunload = function () {
+      window.scrollTo(0, 0);
+  };
+</script>
 <body>
   <header>
     <div class="page nav">
@@ -119,6 +125,14 @@
             <div class="mini-title">現成模型平台</div>
 
             <div class="platform-links platform-links-3">
+              
+              <a href="你的Clibo網址" target="_blank" rel="noopener">
+                <span class="platform-icon">⌘</span>
+                <span>
+                  <strong>Clibo</strong>
+                </span>
+              </a>
+
               <a href="你的Booth網址" target="_blank" rel="noopener">
                 <span class="platform-icon">▣</span>
                 <span>
@@ -131,14 +145,6 @@
                 <span class="platform-icon">✦</span>
                 <span>
                   <strong>VGen</strong>
-                </span>
-
-              </a>
-
-              <a href="你的Clibo網址" target="_blank" rel="noopener">
-                <span class="platform-icon">⌘</span>
-                <span>
-                  <strong>Clibo</strong>
                 </span>
 
               </a>
@@ -287,5 +293,14 @@
       </div>
     </section>
   </main>
+  <script>
+    window.addEventListener("load", () => {
+      window.scrollTo({
+        top: 0,
+        left: 0,
+        behavior: "instant"
+      });
+    });
+  </script>
 </body>
 </html>

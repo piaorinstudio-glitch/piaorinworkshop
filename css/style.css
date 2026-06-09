@@ -1559,7 +1559,9 @@ section {
   .hero-kicker{
     display:none;
   }
-
+  .mini-title{
+    display:none;
+  }
 }
 .social-buttons-3{
   grid-template-columns: repeat(3, 1fr);
