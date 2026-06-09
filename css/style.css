@@ -1478,8 +1478,8 @@ section {
   }
 
   .hero-showcase-inner {
-    gap: 16px;
-    padding: 18px 18px 22px;
+    gap: 10px;
+    padding: 12px 14px 16px;
   }
 
   .portrait-card {
@@ -1505,7 +1505,7 @@ section {
   }
 
   .social-buttons small {
-    font-size: 10px;
+    display: none;
   }
 
   .hero-kicker {
@@ -1554,5 +1554,9 @@ section {
   .platform-links a {
     min-height: 58px;
     padding: 10px 12px;
+  }
+
+  .hero-kicker{
+    display:none;
   }
 }
